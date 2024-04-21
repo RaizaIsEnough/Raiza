@@ -4,8 +4,8 @@ const fs = require('fs').promises;
 const storageFile = 'user_data.json';
 const axiosStatusFile = 'axios_status.json';
 
-const primaryApiUrl = 'https://jonellccprojectapis.onrender.com/api/gptconvo';
-const backupApiUrl = 'https://jonellccprojectapis.onrender.com/api/v2/ai';
+const primaryApiUrl = 'https://jonellccapisprojectv2-a62001f39859.herokuapp.com/api/gptconvo';
+const backupApiUrl = 'https://jonellccapisprojectv2-a62001f39859.herokuapp.com/api/v2/ai';
 
 let isPrimaryApiStable = true;
 
@@ -14,7 +14,7 @@ module.exports = {
         name: "ai",
         version: "1.0.0",
         hasPermssion: 0,
-        credits: "Jonell Magallanes",
+        credits: "Tantan",
         description: "EDUCATIONAL",
         usePrefix: false,
         commandCategory: "other",
@@ -161,4 +161,4 @@ async function saveAxiosStatus(apiName) {
     } catch (error) {
         console.error('Error saving Axios status:', error);
     }
-}
+                    }
