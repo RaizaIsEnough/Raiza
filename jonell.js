@@ -1077,7 +1077,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Good afternoon everyone!",
+                  "Good afternoon everyone! don't forget to pray before eating!!",
                   now.threadID,
                 )
               : "",
