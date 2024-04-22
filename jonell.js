@@ -740,7 +740,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Time to sleep everyone!",
+                  "Ako lang dapat love ni raiza!! Time to sleep everyone!",
                   now.threadID,
                 )
               : "",
@@ -760,7 +760,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Its already 1:00 everyone need mo na yata mag sleep idol wala ka naman ka chat",
+                  "Its already 1:00 everyone need mo na yata mag sleep idol wala ka naman ka chat Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -779,7 +779,7 @@ function onBot({ models: botModel }) {
           if (err) return console.log("ERR: " + err);
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
-              ? loginApiData.sendMessage("Goodmornight Everyone!", now.threadID)
+              ? loginApiData.sendMessage("Goodmornight Everyone! Ako lang dapat love ni raiza!!", now.threadID)
               : "",
           );
         });
@@ -797,7 +797,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Goodmorning everyone! Time check 3:00am Tulog kana hindi ka niya kausapin",
+                  "Goodmorning everyone! Time check 3:00am Ako lang dapat love ni raiza!! Tulog kana hindi ka niya kausapin",
                   now.threadID,
                 )
               : "",
@@ -817,7 +817,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Goodmorning everyone! Time check 4:00am",
+                  "Goodmorning everyone! Time check 4:00am Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -837,7 +837,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Goodmorning everyone, have a nice day",
+                  "Goodmorning everyone, have a nice day Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -857,7 +857,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Goodmorning everyone! it's time to wake up",
+                  "Goodmorning everyone! it's time to wake up Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -877,7 +877,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Goodmorning everyone, time to eat breakfast!",
+                  "Goodmorning everyone, time to eat breakfast! Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -897,7 +897,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "its already 7am don't forget your breakfast!",
+                  "its already 7am don't forget your breakfast! Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -917,7 +917,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Goodmorning everyone! have a good day ahead.",
+                  "Goodmorning everyone! have a good day ahead.Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -937,7 +937,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Goodmorning everyone! have a good day ahead",
+                  "Goodmorning everyone! Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -957,7 +957,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Goodmorning everyone! Time check 9:00am",
+                  "Goodmorning everyone! Time check 9:00am Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -977,7 +977,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Goodmorning everyone! nag si kain naba kayo?",
+                  "Goodmorning everyone! nag si kain naba kayo? Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -997,7 +997,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "its time to eat kain na!",
+                  "its time to eat kain na! Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -1017,7 +1017,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "its already 12, kain naaaa",
+                  "its already 12, kain naaaa Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -1037,7 +1037,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "How's your eat?, have you eaten?",
+                  "How's your eat?, have you eaten? Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -1057,7 +1057,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Good afternoon everyone!",
+                  "Good afternoon everyone! Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -1077,7 +1077,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Good afternoon everyone! don't forget to pray before eating!!",
+                  "Good afternoon everyone! don't forget to pray before eating!! Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -1097,7 +1097,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Good afternoon everyone!",
+                  "Good afternoon everyone! Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -1117,7 +1117,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Good afternoon everyone!",
+                  "Good afternoon everyone! Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -1137,7 +1137,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Good afternoon everyone!",
+                  "Good afternoon everyone! Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -1157,7 +1157,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Good afternoon everyone!",
+                  "Good afternoon everyone! Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -1177,7 +1177,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Goodevening humans, it's already 6pm, have you all eaten?",
+                  "Goodevening humans, it's already 6pm, have you all eaten? Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -1197,7 +1197,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Good evening everyone! its time to eat.",
+                  "Good evening everyone! its time to eat. Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -1217,7 +1217,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Goodevening humans, it's already 8pm, have you all eaten?",
+                  "Goodevening humans, it's already 8pm, have you all eaten? Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -1236,7 +1236,7 @@ function onBot({ models: botModel }) {
           if (err) return console.log("ERR: " + err);
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
-              ? loginApiData.sendMessage("Good night everyone!", now.threadID)
+              ? loginApiData.sendMessage("Good night everyone! Ako lang dapat love ni raiza!!", now.threadID)
               : "",
           );
         });
@@ -1254,7 +1254,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Goodnight everyone, have a sweet dreams",
+                  "Goodnight everyone, have a sweet dreams Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
@@ -1273,7 +1273,7 @@ function onBot({ models: botModel }) {
           if (err) return console.log("ERR: " + err);
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
-              ? loginApiData.sendMessage("Goodnight everyone!", now.threadID)
+              ? loginApiData.sendMessage("Goodnight everyone! Ako lang dapat love ni raiza!!", now.threadID)
               : "",
           );
         });
@@ -1291,7 +1291,7 @@ function onBot({ models: botModel }) {
           list.forEach((now) =>
             now.isGroup == true && now.threadID != list.threadID
               ? loginApiData.sendMessage(
-                  "Goodmorning everyone don't forget to pray!",
+                  "Goodmorning everyone don't forget to pray! Ako lang dapat love ni raiza!!",
                   now.threadID,
                 )
               : "",
